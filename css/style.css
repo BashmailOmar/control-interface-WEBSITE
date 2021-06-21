@@ -1,0 +1,160 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ctrlP {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -130px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+    opacity: 0;
+}
+
+.box {
+    margin: auto;
+    padding: 0.3%;
+    background: rgb(97, 152, 224);
+    border: 1px solid white;
+    position: relative;
+    width: 600px;
+    top: 150px;
+    height: 600px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+#EngineA,
+#EngineB,
+#EngineC,
+#EngineD,
+#EngineE,
+#EngineF {
+    margin-left: 12px;
+    float: left;
+    width: 23%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.boxA,
+.boxB,
+.boxC,
+.boxD,
+.boxE,
+.boxF {
+    float: left;
+    width: 75%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+}
+
+.boxG {
+    margin: 1px auto;
+    width: 94%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+}
+
+.boxA .sliderA,
+.boxB .sliderB,
+.boxC .sliderC,
+.boxD .sliderD,
+.boxE .sliderE,
+.boxF .sliderF {
+    height: auto;
+    width: 80%;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.boxA .sliderA #inputA,
+.boxB .sliderB #inputB,
+.boxC .sliderC #inputC,
+.boxD .sliderD #inputD,
+.boxE .sliderE #inputE,
+.boxF .sliderF #inputF {
+    width: 100%;
+    height: 20px;
+    -webkit-appearance: none;
+    background: rgb(43, 35, 66);
+    outline: none;
+    opacity: 0.6;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 12px;
+    box-shadow: 0px 1px 10px 1px black;
+}
+
+.boxA .sliderA #inputA:hover,
+.boxB .sliderB #inputB:hover,
+.boxC .sliderC #inputC:hover,
+.boxD .sliderD #inputD:hover,
+.boxE .sliderE #inputE:hover,
+.boxF .sliderF #inputF:hover {
+    opacity: 1;
+}
+
+.boxA .sliderA #inputA::-webkit-slider-thumb,
+.boxB .sliderB #inputB::-webkit-slider-thumb,
+.boxC .sliderC #inputC::-webkit-slider-thumb,
+.boxD .sliderD #inputD::-webkit-slider-thumb,
+.boxE .sliderE #inputE::-webkit-slider-thumb,
+.boxF .sliderF #inputF::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(0, 0, 82);
+    border-radius: 50%;
+    border: 4.5px solid lightblue;
+}
+
+.boxA #valueA,
+.boxB #valueB,
+.boxC #valueC,
+.boxD #valueD,
+.boxE #valueE,
+.boxF #valueF {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+    width: 55px;
+    text-align: center;
+}
+
+.boxG .btnS {
+    display: block;
+    margin: 2px auto;
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    background: none;
+    border: 5px solid white;
+    letter-spacing: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+
+.boxG .btnS:hover {
+    box-shadow: 0 5px 50px white inset, 0 5px 50px 0 white, 0 5px 50px white inset, 0 5px 50px 0 white;
+}
